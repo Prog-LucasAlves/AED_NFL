@@ -1,4 +1,4 @@
-# ![NFL](./IMAGE/NFL2-PNG.png "San Juan Mountains") Coleta e análise das estatísticas de passes(passing) dos quaterbacks(qb) da NFL
+# ![NFL](./Image/NFL2-PNG.png "San Juan Mountains") Coleta e análise das estatísticas de passes(passing) dos quaterbacks(qb) da NFL
 
 - Dados coletados entre 2010 a 2022
 
@@ -92,5 +92,5 @@
 
 ## ![CI](https://cdn-icons-png.flaticon.com/24/6577/6577286.png) CI
 
-[![Linter](https://github.com/Prog-LucasAlves/Analise_Exploratoria_Dados/actions/workflows/linter.yml/badge.svg)](https://github.com/Prog-LucasAlves/Analise_Exploratoria_Dados/actions/workflows/linter.yml)
-[![Security](https://github.com/Prog-LucasAlves/Analise_Exploratoria_Dados/actions/workflows/security.yml/badge.svg)](https://github.com/Prog-LucasAlves/Analise_Exploratoria_Dados/actions/workflows/security.yml)
+[![Linter](https://github.com/Prog-LucasAlves/AED_NFL/actions/workflows/Linter.yml/badge.svg)](https://github.com/Prog-LucasAlves/AED_NFL/actions/workflows/Linter.yml)
+[![Extract and Clear](https://github.com/Prog-LucasAlves/AED_NFL/actions/workflows/Extract_and_Clear.yml/badge.svg)](https://github.com/Prog-LucasAlves/AED_NFL/actions/workflows/Extract_and_Clear.yml)
