@@ -12,8 +12,8 @@
 
 **Considerações:**
 
-- Após a união do arquivos CSVs, o DataFrame ficou com 1.385 registros(linhas) e 31(colunas)*.
-- Foi verificado que o DataFrame havia 8.67% de valores ausentes(Em 31 colunas do DataFrame).
+- Após a união do arquivos CSVs, o DataFrame ficou com 1.290 registros(linhas) e 31(colunas)*.
+- Foi verificado que o DataFrame havia 8.62% de valores ausentes(Em 31 colunas do DataFrame).
 
 - **Esses dados podem variar conforme os dados (Jogos) forem acontecendo*
 

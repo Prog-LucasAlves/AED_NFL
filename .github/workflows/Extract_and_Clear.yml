@@ -7,27 +7,31 @@ jobs:
   run_dataExtract:
     runs-on: ubuntu-latest
     steps:
-
+        # Essa ação faz o check-out do seu repositório
       - name: Check conteudo do repositorio
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
+        # Essa ação faz a instalação de uma versão do Python
       - name: Instala python 3.10
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
+        # Essa ação instala as bibliotecas necessarias
       - name: Instala os pacotes do requirements (Extract)
         run: |
           python -m pip install --upgrade pip
           pip install -r Extract/Passing/requirements_extract_passing.txt
 
+        # Essa ação executa o Notebook
       - name: Executa Notebook
         run: |
           jupyter execute Extract/Passing/Passing_Extract.ipynb
         shell: bash 
-          
+
+        # Essa ação faz o commit do Notebook
       - name: commit updated notebook
         uses: EndBug/add-and-commit@v9
         with:
