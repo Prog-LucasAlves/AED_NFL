@@ -10,7 +10,7 @@
 
 ## ![Etapas de Limpeza realizadas](https://cdn-icons-png.flaticon.com/24/6104/6104865.png) Etapas de Limpeza realizadas
 
-**Considerações:**
+**Considerações:** 
 
 - Após a união do arquivos CSVs, o DataFrame ficou com 1.290 registros(linhas) e 31(colunas)*.
 - Foi verificado que o DataFrame havia 8.62% de valores ausentes(Em 31 colunas do DataFrame).
