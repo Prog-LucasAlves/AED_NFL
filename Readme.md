@@ -1,4 +1,4 @@
-# ![NFL](./Image/NFL2-PNG.png "San Juan Mountains") Coleta e análise das estatísticas de passes(passing) dos quaterbacks(qb) da NFL
+# ![NFL](./Image/NFL2-PNG.png "San Juan Mountains") Coleta e análise das estatísticas de (Passing | Receiving) dos quaterbacks(qb) da NFL
 
 - Dados coletados entre 2010 a 2022
 
@@ -11,6 +11,8 @@
 ## ![Etapas de Limpeza realizadas](https://cdn-icons-png.flaticon.com/24/6104/6104865.png) Etapas de Limpeza realizadas
 
 **Considerações:**
+
+> Dados abaixo relacionado ao notebook 'Passing_Union_Clear.ipynb'
 
 - Após a união do arquivos CSVs, o DataFrame ficou com 1.290 registros(linhas) e 31(colunas)*.
 - Foi verificado que o DataFrame havia 8.62% de valores ausentes(Em 30 colunas do DataFrame).
@@ -80,15 +82,13 @@
 ## ![Perguntas a serem respondidas](https://cdn-icons-png.flaticon.com/24/4501/4501315.png) Perguntas a serem respondidas
 
 1. Ranking de jogador por total de jardas e passes para touchdowns temporada 2022.
-
-## ![Deploy dos dados](https://cdn-icons-png.flaticon.com/24/1508/1508878.png) Deploy dos dados
-
-[Site](http)
+2. Gráfico Top 5 principais estatísticas.
 
 ## ![Planejamento](https://cdn-icons-png.flaticon.com/24/5341/5341024.png) Planejamento
 
-- [x] Coleta dos dados
+- [x] Coleta dos dados Passing - Receiving
 - [ ] Limpeza e Transformação dos dados
+![progress](https://progress-bar.dev/10/?title=completed "progresso")
 
 ## ![CI](https://cdn-icons-png.flaticon.com/24/6577/6577286.png) CI
 
