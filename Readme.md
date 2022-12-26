@@ -14,8 +14,8 @@
 
 > Dados abaixo relacionado ao notebook 'Passing_Union_Clear.ipynb'
 
-- Após a união do arquivos CSVs, o DataFrame ficou com 1.290 registros(linhas) e 31(colunas)*.
-- Foi verificado que o DataFrame havia 8.62% de valores ausentes(Em 30 colunas do DataFrame).
+- Após a união do arquivos CSVs, o DataFrame ficou com 1.313 registros(linhas) e 31(colunas)*.
+- Foi verificado que o DataFrame havia 8.54% de valores ausentes(Em 30 colunas do DataFrame).
 
 - **Esses dados podem variar conforme os dados (Jogos) forem acontecendo*
 
