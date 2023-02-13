@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aed-nfl"
+version = "0.1.0"
+description = ""
+authors = ["Prog-LucasAlves <lucasalves_taz@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "aed_nfl"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.11.2"
+pandas = "^1.5.3"
+matplotlib = "^3.6.3"
+seaborn = "^0.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.21.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
